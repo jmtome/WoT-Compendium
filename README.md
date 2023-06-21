@@ -1,5 +1,7 @@
 # Wheel of Time Characters Compendium App
 
+#[WIP]
+
 Welcome to the Wheel of Time Characters Compendium App! This SwiftUI-based iOS application allows you to explore characters from the popular book series, "The Wheel of Time." The app provides a comprehensive collection of character information, which has been sourced from [WoT Compendium](https://hammondkd.github.io/WoT-compendium/).
 
 ## Features
