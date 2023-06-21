@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0386AA2A425C77005F2059 /* book-2.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0386A92A425C77005F2059 /* book-2.json */; };
+		FA0386AC2A427679005F2059 /* Color+UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0386AB2A427679005F2059 /* Color+UIColor+Extension.swift */; };
+		FA0C01522A3CEF2100625CE6 /* AllCharactersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C01512A3CEF2100625CE6 /* AllCharactersTabView.swift */; };
+		FA0C01562A3D259B00625CE6 /* SortMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C01552A3D259B00625CE6 /* SortMenuView.swift */; };
+		FA0C01582A42412800625CE6 /* ChaptersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C01572A42412700625CE6 /* ChaptersTabView.swift */; };
+		FA0C015A2A4241D900625CE6 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C01592A4241D900625CE6 /* CharactersListView.swift */; };
+		FA0C015C2A42425D00625CE6 /* ChapterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C015B2A42425D00625CE6 /* ChapterCellView.swift */; };
+		FA0C015E2A42433900625CE6 /* CharacterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C015D2A42433900625CE6 /* CharacterCellView.swift */; };
 		FA51C0A12A394E38002EC274 /* WheelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51C0A02A394E38002EC274 /* WheelApp.swift */; };
 		FA51C0A32A394E38002EC274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51C0A22A394E38002EC274 /* ContentView.swift */; };
 		FA51C0A52A394E46002EC274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51C0A42A394E46002EC274 /* Assets.xcassets */; };
 		FA51C0A92A394E46002EC274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51C0A82A394E46002EC274 /* Preview Assets.xcassets */; };
+		FA51C0BF2A394EB6002EC274 /* book-1.json in Resources */ = {isa = PBXBuildFile; fileRef = FA51C0B02A394EB4002EC274 /* book-1.json */; };
+		FA51C0CF2A394F5A002EC274 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51C0CE2A394F5A002EC274 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA0386A92A425C77005F2059 /* book-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "book-2.json"; sourceTree = "<group>"; };
+		FA0386AB2A427679005F2059 /* Color+UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FA0C01512A3CEF2100625CE6 /* AllCharactersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCharactersTabView.swift; sourceTree = "<group>"; };
+		FA0C01552A3D259B00625CE6 /* SortMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortMenuView.swift; sourceTree = "<group>"; };
+		FA0C01572A42412700625CE6 /* ChaptersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersTabView.swift; sourceTree = "<group>"; };
+		FA0C01592A4241D900625CE6 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		FA0C015B2A42425D00625CE6 /* ChapterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCellView.swift; sourceTree = "<group>"; };
+		FA0C015D2A42433900625CE6 /* CharacterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCellView.swift; sourceTree = "<group>"; };
 		FA51C09D2A394E38002EC274 /* Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA51C0A02A394E38002EC274 /* WheelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelApp.swift; sourceTree = "<group>"; };
 		FA51C0A22A394E38002EC274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA51C0A42A394E46002EC274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA51C0A62A394E46002EC274 /* Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wheel.entitlements; sourceTree = "<group>"; };
 		FA51C0A82A394E46002EC274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA51C0B02A394EB4002EC274 /* book-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "book-1.json"; sourceTree = "<group>"; };
+		FA51C0CE2A394F5A002EC274 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +72,18 @@
 		FA51C09F2A394E38002EC274 /* Wheel */ = {
 			isa = PBXGroup;
 			children = (
+				FA51C0AF2A394E93002EC274 /* Resources */,
 				FA51C0A02A394E38002EC274 /* WheelApp.swift */,
 				FA51C0A22A394E38002EC274 /* ContentView.swift */,
+				FAFCA3592A424EEF00E89E59 /* CellViews */,
+				FAFCA35A2A424EFA00E89E59 /* ListViews */,
+				FAFCA3582A424B9900E89E59 /* TabViews */,
+				FAFCA35B2A424F0400E89E59 /* HelperViews */,
+				FAFCA35C2A424F1000E89E59 /* Model */,
 				FA51C0A42A394E46002EC274 /* Assets.xcassets */,
 				FA51C0A62A394E46002EC274 /* Wheel.entitlements */,
 				FA51C0A72A394E46002EC274 /* Preview Content */,
+				FA0386AB2A427679005F2059 /* Color+UIColor+Extension.swift */,
 			);
 			path = Wheel;
 			sourceTree = "<group>";
@@ -67,6 +94,57 @@
 				FA51C0A82A394E46002EC274 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA51C0AF2A394E93002EC274 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA51C0B02A394EB4002EC274 /* book-1.json */,
+				FA0386A92A425C77005F2059 /* book-2.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAFCA3582A424B9900E89E59 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C01572A42412700625CE6 /* ChaptersTabView.swift */,
+				FA0C01512A3CEF2100625CE6 /* AllCharactersTabView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		FAFCA3592A424EEF00E89E59 /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C015B2A42425D00625CE6 /* ChapterCellView.swift */,
+				FA0C015D2A42433900625CE6 /* CharacterCellView.swift */,
+			);
+			path = CellViews;
+			sourceTree = "<group>";
+		};
+		FAFCA35A2A424EFA00E89E59 /* ListViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C01592A4241D900625CE6 /* CharactersListView.swift */,
+			);
+			path = ListViews;
+			sourceTree = "<group>";
+		};
+		FAFCA35B2A424F0400E89E59 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C01552A3D259B00625CE6 /* SortMenuView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		FAFCA35C2A424F1000E89E59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA51C0CE2A394F5A002EC274 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA51C0A92A394E46002EC274 /* Preview Assets.xcassets in Resources */,
+				FA0386AA2A425C77005F2059 /* book-2.json in Resources */,
+				FA51C0BF2A394EB6002EC274 /* book-1.json in Resources */,
 				FA51C0A52A394E46002EC274 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0C01582A42412800625CE6 /* ChaptersTabView.swift in Sources */,
+				FA0386AC2A427679005F2059 /* Color+UIColor+Extension.swift in Sources */,
+				FA0C01522A3CEF2100625CE6 /* AllCharactersTabView.swift in Sources */,
+				FA0C015E2A42433900625CE6 /* CharacterCellView.swift in Sources */,
+				FA0C015C2A42425D00625CE6 /* ChapterCellView.swift in Sources */,
+				FA51C0CF2A394F5A002EC274 /* Model.swift in Sources */,
+				FA0C01562A3D259B00625CE6 /* SortMenuView.swift in Sources */,
+				FA0C015A2A4241D900625CE6 /* CharactersListView.swift in Sources */,
 				FA51C0A32A394E38002EC274 /* ContentView.swift in Sources */,
 				FA51C0A12A394E38002EC274 /* WheelApp.swift in Sources */,
 			);
